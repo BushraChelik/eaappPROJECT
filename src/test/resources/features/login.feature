@@ -1,7 +1,7 @@
-Feature: User Login and Create a New Employee Test
+Feature: As an admin I should be able to Create a new employee and delete the employee which I created
 
   @wip
-  Scenario:  Login and New Create Test
+  Scenario:Create a new employee and verify if the name is in the list before and after deleting
     Given The user is on the login page
     When The user enters "admin" and "password"
     And The user navigates "Employee List"
